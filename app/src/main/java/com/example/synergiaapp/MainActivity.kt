@@ -12,20 +12,29 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        loginButton.setOnClickListener {
-            onClickButton()
-        }
-    }
 
-    fun onClickButton(){
-        val userName = userText.text.toString()
-        val userPassword = passwordText.text.toString()
+        buttonStart.setOnClickListener{
+            val Slogin: String = inputUser.text.toString()
+            val Spassword:String = inputPassword.text.toString()
 
-        if (userName == "aluno" && userPassword == "impacta") {
-            var intent = Intent(this, MainMenu::class.java)
-            startActivity(intent)
-        } else {
-            Toast.makeText(this, "Usuário ou senha incorretos!", Toast.LENGTH_SHORT).show()
+            if (Slogin == "aluno" && Spassword == "impacta"){
+                Toast.makeText(
+                    this, "Bem vindo, $Slogin!",
+                    Toast.LENGTH_SHORT).show()
+
+                val intent:Intent = Intent(this, PrincipalActivity::class.java)
+                startActivity(intent)
+            }
+            else if(Slogin == "" && Spassword == ""){
+                Toast.makeText(
+                    this, "Campos em branco, Informe usuário e senha!",
+                    Toast.LENGTH_SHORT).show()
+            }
+            else {
+                Toast.makeText(
+                    this, "Usuário ou senha incorretos",
+                    Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }

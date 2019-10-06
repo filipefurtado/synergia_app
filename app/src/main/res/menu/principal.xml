@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_buscar"
+        android:icon="@drawable/ic_buscar_white"
+        android:title="@string/action_buscar"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_adicionar_white"
+        android:title="@string/adicionar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_atualizar"
+        android:icon="@drawable/ic_atualizar_white"
+        android:title="@string/atualizar"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_sair"
+        android:title="@string/sair"
+        app:showAsAction="never"/>
+
+</menu>

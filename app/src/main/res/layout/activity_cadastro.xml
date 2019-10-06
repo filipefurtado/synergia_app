@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nome:"
+        android:paddingTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:background="@drawable/round_btn"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Endereço:"
+        android:id="@+id/textViewEndereco"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:background="@drawable/round_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sexo:"
+        android:id="@+id/textViewSexo"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroupSexo">
+
+        <RadioButton
+            android:id="@+id/radioButtonMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masculino"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feminino"
+            android:checked="false"
+            android:layout_marginBottom="10dp"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewDataNascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/data_nascimento"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextDataNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:padding="5dp"
+        android:background="@drawable/round_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado Civil"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/EstadoCivil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonCasado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Casado(a)"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSolteiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="solteiro(a)"
+            android:checked="false"
+            android:layout_marginBottom="10dp"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBoxRegistroAtivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Ativo"
+        android:checked="true"
+        android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/buttonSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="50dp"
+            android:text="@string/salvar"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_btn"/>
+
+</LinearLayout>
