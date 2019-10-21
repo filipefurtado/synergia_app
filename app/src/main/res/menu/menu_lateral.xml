@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_disciplina_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_vagas"
+            android:icon="@drawable/ic_forum_black"
+            android:title="Lista Aqui" />
+        <item
+            android:id="@+id/nav_vicurriculo"
+            android:icon="@drawable/ic_forum_black"
+            android:title="Visualização Curriculo" />
+        <item
+            android:id="@+id/nav_cadcurriculo"
+            android:icon="@drawable/ic_chat_black"
+            android:title="Cadastrar Aqui" />
+        <item
+            android:id="@+id/nav_alcurriculo"
+            android:icon="@drawable/ic_configuracoes_black"
+            android:title="Alterar Curriculo" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_configuracoes_black"
+            android:title="Configurações" />
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/ic_configuracoes_black"
+            android:title="Sair" />
+    </group>
+</menu>
