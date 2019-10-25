@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-<<<<<<< HEAD
+
     xmlns:tools="http://schemas.android.com/tools"
-=======
->>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
+
     android:id="@+id/layoutMenuLateral"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
     <!--Conteúdo da tela-->
-<<<<<<< HEAD
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -492,35 +491,7 @@
             </GridLayout>
 
         </LinearLayout>
-=======
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".backview.TelaInicialActivity">
-        <include layout="@layout/toolbar" />
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <!-- Colocar cardview com as disciplinas-->
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recyclerDisciplinas"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:cacheColorHint="@android:color/transparent"
-                android:clipToPadding="false"
-                android:divider="@null"
-                android:dividerHeight="0dp"
-                android:listSelector="@android:color/transparent"
-                android:scrollbarStyle="outsideOverlay"
-                android:scrollbars="vertical">
-            </android.support.v7.widget.RecyclerView>
-        </ScrollView>
-
->>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
 
     </LinearLayout>
 
@@ -533,11 +504,8 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/menu_lateral_cabecalho"
-<<<<<<< HEAD
+
         app:menu="@menu/menu_lateral"></android.support.design.widget.NavigationView>
-=======
-        app:menu="@menu/menu_lateral">
-    </android.support.design.widget.NavigationView>
->>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
+
 
 </android.support.v4.widget.DrawerLayout>

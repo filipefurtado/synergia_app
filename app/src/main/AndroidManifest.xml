@@ -12,7 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
         <activity android:name=".view.ConfigActivity"></activity>
         <activity
             android:name=".view.CadastroActivity" />
@@ -30,19 +29,7 @@
             android:theme="@style/AppTheme.Toolbar" />
 
         <activity android:name=".view.MainActivity">
-=======
-        <activity android:name=".backview.ConfigActivity"></activity>
-        <activity android:name=".backview.CadastroActivity" />
-        <activity
-            android:name=".backview.VagasActivity"
-            android:theme="@style/AppTheme.Toolbar" />
 
-        <activity android:name=".backview.DisciplinaActivity" />
-        <activity
-            android:name=".backview.TelaInicialActivity"
-            android:theme="@style/AppTheme.Toolbar" />
-        <activity android:name=".backview.MainActivity">
->>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
