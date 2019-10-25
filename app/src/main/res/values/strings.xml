@@ -10,6 +10,7 @@
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
     <string name="action_remover">Remover Disciplina</string>
+<<<<<<< HEAD
     ================================================
     <string name="about_dialog_title">Livro Android</string>
     <!-- C -->
@@ -83,4 +84,6 @@
     <string name="menu_alter">Alterar Curriculo</string>
 
 
+=======
+>>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
 </resources>

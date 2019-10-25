@@ -6,7 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
     tools:context=".view.MainActivity">
+=======
+    tools:context=".backview.MainActivity">
+>>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
 
     <ImageView
         android:id="@+id/imageLogo"

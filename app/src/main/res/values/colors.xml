@@ -6,5 +6,8 @@
     <color name="colorDgrayHint">#969696</color>
     <color name="btnColor">#E6E6E6</color>
     <color name="btnColorTwo">#636363</color>
+<<<<<<< HEAD
     <color name="gray">#cccccc</color>
+=======
+>>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
 </resources>

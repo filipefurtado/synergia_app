@@ -4,6 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".view.ConfigActivity">
+=======
+    tools:context=".backview.ConfigActivity">
+>>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
 
 </android.support.constraint.ConstraintLayout>

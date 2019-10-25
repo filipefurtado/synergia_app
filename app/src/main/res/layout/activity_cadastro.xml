@@ -12,7 +12,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:paddingTop="20dp"
+<<<<<<< HEAD
         android:text="Nome da Vaga: "
+=======
+        android:text="Nome da Disciplina:"
+>>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -30,7 +34,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:paddingTop="20dp"
+<<<<<<< HEAD
         android:text="Descrição da Vaga: "
+=======
+        android:text="Ementa Disciplina: "
+>>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -48,7 +56,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:paddingTop="20dp"
+<<<<<<< HEAD
         android:text="Resquisitos da Vaga: "
+=======
+        android:text="Nome do Professor:"
+>>>>>>> a5519d4a2ed6a088ca3ee047dd67ae6147c54999
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
