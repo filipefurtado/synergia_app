@@ -1,3 +1,86 @@
 <resources>
-    <string name="app_name">SynergiaApp</string>
+    <string name="app_name">SynergiaApplication</string>
+    <string name="mensagem_login">Faça seu Login</string>
+
+    <string name="action_buscar">Buscar</string>
+    <string name="action_atualizar">Atualizar</string>
+    <string name="action_adicionar">Adicionar</string>
+    <string name="action_config">Configurações</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="action_remover">Remover Disciplina</string>
+    ================================================
+    <string name="about_dialog_title">Livro Android</string>
+    <!-- C -->
+    <string name="carros">Carros</string>
+    <string name="configuracoes">Configuraçõeses</string>
+    <string name="classicos">Clássicos</string>
+    <string name="classico">Clássico</string>
+    <!-- D -->
+    <string name="descricao">Descrição</string>
+
+    <!-- E -->
+    <string name="esportivos">Esportivos</string>
+    <string name="esportivo">Esportivos</string>
+
+    <!-- F -->
+    <string name="favoritos">Favoritos</string>
+
+    <!-- L -->
+    <string name="latitudeLongitude">Latitude / Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="luxo">Luxo</string>
+
+    <!-- M -->
+    <string name="mapa">Mapa</string>
+    <string name="msg_sem_internet">Sem internet.</string>
+    <string name="msg_aguarde">Por favor aguarde…</string>
+    <string name="msg_carro_favoritado">Carro adicionado aos favoritado.</string>
+    <string name="msg_carro_desfavoritado">Carro removido do favoritados.</string>
+    <string name="msg_carro_salvo">Carro salvo com sucesso</string>
+    <string name="msg_carro_deletado">Carro excluído com sucesso</string>
+    <string name="msg_confirma_excluir_carro">Confirma excluir este carro?</string>
+    <string name="msg_carro_excluido">Carro excluído com sucesso</string>
+    <string name="msg_error_form_nome">Nome é obrigatório</string>
+    <string name="msg_error_form_desc">Descrição é obrigatório</string>
+
+    <!-- N -->
+    <string name="nao">Não</string>
+    <string name="nav_drawer_username">Ricardo Lecheta</string>
+    <string name="nav_drawer_email">rlecheta@gmail.com</string>
+    <string name="nome">Nome</string>
+    <string name="novo_carro">Novo Carro</string>
+
+    <!-- O -->
+    <string name="ok">OK</string>
+
+    <!-- S -->
+    <string name="site_do_livro">Site do Livro</string>
+    <string name="sim">Sim</string>
+    <string name="sobre">Sobre</string>
+
+    <!-- U -->
+    <string name="url_video">Vídeo</string>
+
+    <!-- V -->
+    <string name="vazio" />
+    <string name="video">Vídeo</string>
+
+    <!-- T -->
+    <string name="tipo">Tipo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sub_text">Bem vindo ao app Synergia.</string>
+    <string name="name_user">Olá, Usuário</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_vagas">Lista Aqui</string>
+    <string name="menu_exit">Sair</string>
+    <string name="menu_config">Configurações</string>
+    <string name="menu_register">Cadastrar Aqui</string>
+    <string name="menu_alter">Alterar Curriculo</string>
+
+
 </resources>
