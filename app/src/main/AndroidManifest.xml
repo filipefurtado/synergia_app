@@ -29,7 +29,6 @@
             android:theme="@style/AppTheme.Toolbar" />
 
         <activity android:name=".view.MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

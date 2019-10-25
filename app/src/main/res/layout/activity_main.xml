@@ -8,7 +8,6 @@
     android:orientation="vertical"
     tools:context=".view.MainActivity">
 
-
     <ImageView
         android:id="@+id/imageLogo"
         android:layout_width="match_parent"

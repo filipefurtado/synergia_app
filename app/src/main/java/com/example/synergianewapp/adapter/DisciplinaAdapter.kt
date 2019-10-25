@@ -41,9 +41,7 @@ class DisciplinaAdapter (
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DisciplinasViewHolder {
         // infla view no adapter
-
         val view = LayoutInflater.from(parent.context).inflate(R.layout.adapter_vaga, parent, false)
-
 
         // retornar ViewHolder
         val holder = DisciplinasViewHolder(view)

@@ -12,9 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:paddingTop="20dp"
-
         android:text="Nome da Vaga: "
-
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -32,9 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:paddingTop="20dp"
-
         android:text="Descrição da Vaga: "
-
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
@@ -52,9 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:paddingTop="20dp"
-
         android:text="Resquisitos da Vaga: "
-
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
