@@ -3,6 +3,7 @@ package com.example.synergianewapp.view
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Toast
 import com.example.synergianewapp.R
 import com.example.synergianewapp.domain.Disciplina
 import com.example.synergianewapp.domain.DisciplinaService
@@ -24,11 +25,16 @@ class CadastroActivity : AppCompatActivity() {
 
         salvarDisciplina.setOnClickListener {
             val disciplina = Disciplina()
-            disciplina.nome = nomeDisciplina.text.toString()
-            disciplina.ementa = ementaDisciplina.text.toString()
-            disciplina.professor = professorDisciplina.text.toString()
-            disciplina.foto = urlFoto.text.toString()
-            taskAtualizar(disciplina)
+            if (nomeDisciplina.text.toString() == "" || ementaDisciplina.text.toString() == "" || professorDisciplina.text.toString() == "" ||
+                urlFoto.text.toString() == ""){
+                Toast.makeText(this,"Todos Os Campos Devem Ser Preenchidos!", Toast.LENGTH_LONG).show()
+            }else{
+                disciplina.nome = nomeDisciplina.text.toString()
+                disciplina.ementa = ementaDisciplina.text.toString()
+                disciplina.professor = professorDisciplina.text.toString()
+                disciplina.foto = urlFoto.text.toString()
+                taskAtualizar(disciplina)
+            }
         }
     }
         override fun onOptionsItemSelected(item: MenuItem?): Boolean {

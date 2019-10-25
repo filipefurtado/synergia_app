@@ -106,24 +106,12 @@ class VagasActivity : AppCompatActivity() {
         }.start()
     }
 
-    // tratamento do evento de clicar em uma disciplina
-    // tratamento do evento de clicar em uma disciplina
     fun onClickDisciplina(disciplina: Disciplina) {
         Toast.makeText(context, "Clicou disciplina ${disciplina.nome}", Toast.LENGTH_SHORT).show()
         val intent = Intent(context, DisciplinaActivity::class.java)
         intent.putExtra("disciplina", disciplina)
         startActivity(intent)
     }
-
-//    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-//        // id do item clicado
-//        val id = item?.itemId
-//        // botão up navigation
-//        if (id == android.R.id.home) {
-//            finish()
-//        }
-//        return super.onOptionsItemSelected(item)
-//    }
 
 
     // esperar o retorno do cadastro da disciplina
