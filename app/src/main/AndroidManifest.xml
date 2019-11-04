@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.synergiaapp">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.synergianewapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
+        android:name=".LMSApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainMenu"></activity>
-        <activity android:name=".ConfigMenu"></activity>
-        <activity android:name=".AddMenu"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.AccountActivity"></activity>
+        <activity android:name=".view.ConfigActivity" />
+        <activity android:name=".view.CadastroVagaActivity" />
+        <activity
+            android:name=".view.VagasActivity"
+            android:theme="@style/AppTheme.Toolbar" />
+        <activity
+            android:name=".view.DisciplinaActivity"
+            android:theme="@style/AppTheme.Toolbar" />
+        <activity
+            android:name=".view.TelaInicialActivity"
+            android:theme="@style/AppTheme.Toolbar" />
+        <activity
+            android:name=".view.MainActivity"
+            android:theme="@style/AppTheme.Toolbar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

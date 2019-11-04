@@ -1,3 +1,35 @@
 <resources>
-    <string name="app_name">SynergiaApp</string>
+    <string name="app_name">SynergiaApplication</string>
+    <string name="mensagem_login">Faça seu Login</string>
+
+    <string name="action_buscar">Buscar</string>
+    <string name="action_atualizar">Atualizar</string>
+    <string name="action_adicionar">Adicionar</string>
+    <string name="action_config">Configurações</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="action_remover">Remover Disciplina</string>
+    <!-- D -->
+    <string name="descricao">Descrição</string>
+
+    <!-- M -->
+
+    <!-- T -->
+    <string name="tipo">Tipo</string>
+
+    <string name="sub_text">User.novo@user.com.br</string>
+    <string name="name_user">Olá, Usuário</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_vagas">Lista Aqui</string>
+    <string name="menu_exit">Sair</string>
+    <string name="menu_config">Configurações</string>
+    <string name="menu_register">Cadastrar Aqui</string>
+    <string name="menu_alter">Alterar Curriculo</string>
+    <string name="primeiro_acesso">Primeiro Acesso?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
